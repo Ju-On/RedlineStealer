@@ -1,0 +1,39 @@
+1dr URL > Zip > password text 2022 > Unpacked Scr (screen saver file > invokes secondary URL payload for a png file > 
+  failed to download due to missing DLL.
+
+Stage 1 Observed Email Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: Document-ptxiiPnl.zip
+MD5: b085ecc8ca2cf665bbacc2252cbfd62d
+SHA256: 261a48ac73fc24a25f5c31e2689e6931d0b116851580b1e313f57ad575c4ad10
+File Size: 3420111 bytes (3M)
+
+Email Infection URL(s):
+hXXps://1drv[.]ms/u/s!AlZeVuuvsU02dQ-4bistuuWOj0I
+
+Email Infection URL IP(s):
+13.107.42.12
+
+Stage 2 Discovered Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: Document.pdf.scr
+MD5: faa0e2dd5266cec430d7cb45a7b7a4f4
+SHA256: e5725a35099fc6846f47983b8f615448edad05b49cc791aaf6d4d9c285d2e8a4
+File Size: 10524 bytes (10K)
+
+File Name: Document.pdf.rar
+MD5: 9180d9f659c67c11b0198e020b49ef79
+SHA256: 04b2c242d532a1553846d9645080eac7aa3c5f4dbcc499679962b032ff3d99b2
+File Size: 3419278 bytes (3M)
+
+Payload URL(s):
+hXXp://45[.]143[.]201[.]7/Microsoft[.]Toolkit[.]Uwp10_Tssphvbq[.]png
+
+Payload IP(s):
+45.143.201.7
+
+Malware Family/Delivery Mechanism(s):
+RedLine Stealer
+
+Phenotype(s):
+Information Stealer
